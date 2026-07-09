@@ -1,0 +1,19 @@
+{
+  "name": "entrena-en-casa",
+  "version": "2.0.0",
+  "description": "Entrenamiento personal en casa - 138 ejercicios con fotos reales",
+  "private": true,
+  "scripts": {
+    "android": "npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
